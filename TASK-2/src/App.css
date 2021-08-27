@@ -1,0 +1,56 @@
+.user_data {
+  background-color: rgba(0, 0, 0, 0.829);
+  border-radius: 10px;
+}
+.nvbar {
+  background-color: rgba(128, 128, 128, 0.829);
+  padding:10px;
+  color: white;
+  border-radius: 10px;
+  }
+  
+ .nvitems h2 {
+  margin-left: 10%;
+  font-size: 32px;
+  display: inline-block;
+  } 
+  .btn {
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(rgb(240,13,24), rgb(235, 13, 13));
+  }
+ 
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .pic {
+    border-radius: 100%;
+  }
+  
+  .user_profile {
+  
+    border-radius:20%;
+    background-image: linear-gradient(rgb(116, 0, 6), rgb(235, 13, 13));
+    margin:50px;
+    padding:20px;
+    text-align: center;
+    transition: transform .3s; 
+    cursor: pointer;
+    filter: blur(.5px);
+  }
+  
+  .user_profile:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(rgb(255, 106, 80),rgb(121, 45, 17));
+  }
